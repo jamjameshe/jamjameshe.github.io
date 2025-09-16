@@ -13,14 +13,22 @@
 /* BASE RULES */
 /**************/
 
-html {
-  font-size: 100%;
+html,
+body {
+  height: 100%;
 }
 
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+}
+
+body {
+  // background: $white;
+  // color: $darkGray;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -46,6 +54,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  // margin: 0.5em 0;
+  margin: 0;
   a {
     color: inherit;
   }
@@ -240,6 +250,10 @@ nav {
 //
 // .main
 //
+
+#main {
+  flex-grow: 1;
+}
 
 .posts > .post {
   padding-bottom: 2em;

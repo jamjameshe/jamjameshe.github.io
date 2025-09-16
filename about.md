@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-<!-- ### More Information
-
-I like Music -->
+Currently in my final year of a software engineering degree.
 
 ### Contact me
 
-[james-he@outlook.com](mailto:james-he@outlook.com)
+[jamjameshe@gmail.com](mailto:james-he@outlook.com)
